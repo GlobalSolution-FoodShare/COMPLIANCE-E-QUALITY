@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Food-Share" id="id-c30400bc02f94d668d7a7046d0286083" version="5.0.0">
+  <folder name="Strategy" id="id-f96d1071f43246a8909a4f22d22f9b5e" type="strategy"/>
+  <folder name="Business" id="id-799bd67eab064169938ae871e9a854dd" type="business"/>
+  <folder name="Application" id="id-7f958bba88c84410b83b43c8ae9e13f8" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-24e044bf7e03429289732fc5ac31389e" type="technology"/>
+  <folder name="Motivation" id="id-17d63031860b46c48c20fe8ef6465bf4" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-29b7b63d15b549f9b9c5e0bfb00d9ed3" type="implementation_migration"/>
+  <folder name="Other" id="id-1d2930081b804c619a4382ac68db8e3d" type="other"/>
+  <folder name="Relations" id="id-b89c22b981f9449d896abf050a3a2ee0" type="relations"/>
+  <folder name="Views" id="id-f7da9a7498b74c798111ab42d1ed096b" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="FoodShareArchi" id="id-3a8e2eae6ff34843b420c395064ace05"/>
+  </folder>
+</archimate:model>
