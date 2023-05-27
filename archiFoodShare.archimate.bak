@@ -66,7 +66,17 @@
   </folder>
   <folder name="Application" id="id-7f958bba88c84410b83b43c8ae9e13f8" type="application">
     <element xsi:type="archimate:DataObject" name="Função de registrar um pedido alimentício" id="id-4d3991dc811f45a7a9a4e0ef2e3fc7f2"/>
-    <element xsi:type="archimate:ApplicationService" name="Front-end React Native" id="id-a837671d03ab4d9c91775c77074768d2"/>
+    <element xsi:type="archimate:ApplicationService" name="Front-end React Native Acesso ao app" id="id-a837671d03ab4d9c91775c77074768d2"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Tela de login React Native app" id="id-0330303da3c2444ba10037fde85c4418"/>
+    <element xsi:type="archimate:ApplicationCollaboration" name="Back-end" id="id-5ff3ee2ab3234ea79b6539bff49be05f"/>
+    <element xsi:type="archimate:ApplicationService" name="Back-end Spring Boot " id="id-7d9471f104e9474db7c859ab8877e5b9"/>
+    <element xsi:type="archimate:ApplicationService" name="Acesso a dados" id="id-f3ecea54b515451bbf538df3eefb6eaa"/>
+    <element xsi:type="archimate:ApplicationCollaboration" name="Passagem de parâmetros de dados de login" id="id-f73c83955b9440f0b0fb47a410640930"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Envio de dados ao banco para validar existência" id="id-c4c959b4073443b7ab1349ee22dde333"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Banco de dados Oracle FoodShare" id="id-b5ae479afb3941d18f4173006f2cfbb9"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Tela de cadastro React Native " id="id-c050dc4057774f90a0789c61197b3d80"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Envio de dados de cadastro " id="id-f5a8fcb7e000448eb1a7c477509de9c4"/>
+    <element xsi:type="archimate:ApplicationCollaboration" name="Passagem de parâmetros de dados de cadastro" id="id-f2a05aad89194cb38f67f90fbd7ab465"/>
   </folder>
   <folder name="Technology &amp; Physical" id="id-24e044bf7e03429289732fc5ac31389e" type="technology"/>
   <folder name="Motivation" id="id-17d63031860b46c48c20fe8ef6465bf4" type="motivation">
@@ -644,9 +654,36 @@
         </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-4060de4e6e694a13a9ec5cc0f8a65b01" archimateElement="id-4d3991dc811f45a7a9a4e0ef2e3fc7f2">
-        <bounds x="-480" y="2424" width="2380" height="829"/>
+        <bounds x="-480" y="2424" width="2380" height="565"/>
         <child xsi:type="archimate:DiagramObject" id="id-ae8a1177619a4f3ea25c1a28239dc3f7" archimateElement="id-a837671d03ab4d9c91775c77074768d2">
-          <bounds x="84" y="60" width="732" height="193"/>
+          <bounds x="84" y="60" width="408" height="133"/>
+          <child xsi:type="archimate:DiagramObject" id="id-6633742033be4023bae1b4d5822b0c0b" archimateElement="id-0330303da3c2444ba10037fde85c4418">
+            <bounds x="60" y="48" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-fca2bf8dc9e94f1bb5c2359fdbe92a50" archimateElement="id-c050dc4057774f90a0789c61197b3d80">
+            <bounds x="216" y="48" width="120" height="55"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b2211d34777442bb9dec5484dfbe4c80" archimateElement="id-7d9471f104e9474db7c859ab8877e5b9">
+          <bounds x="88" y="216" width="404" height="192"/>
+          <child xsi:type="archimate:DiagramObject" id="id-1bbe1d44400d469da168a615170d0ad6" archimateElement="id-f73c83955b9440f0b0fb47a410640930">
+            <bounds x="58" y="49" width="124" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-3ce41ef1813f45e3bf3ab111884f47e1" archimateElement="id-c4c959b4073443b7ab1349ee22dde333">
+            <bounds x="48" y="122" width="134" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-a1d58bdb408b47748cac483fae95ba95" archimateElement="id-f5a8fcb7e000448eb1a7c477509de9c4">
+            <bounds x="216" y="122" width="134" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-5c071c19c9554c4fa3df3d5f29e354d2" archimateElement="id-f2a05aad89194cb38f67f90fbd7ab465">
+            <bounds x="217" y="49" width="132" height="55"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-60dde87dec0d40e4b1b0284b24cf3714" archimateElement="id-f3ecea54b515451bbf538df3eefb6eaa">
+          <bounds x="86" y="432" width="406" height="88"/>
+          <child xsi:type="archimate:DiagramObject" id="id-5bb42e5109fa4110b33d5be84fac3f0b" archimateElement="id-b5ae479afb3941d18f4173006f2cfbb9">
+            <bounds x="48" y="24" width="312" height="55"/>
+          </child>
         </child>
       </child>
     </element>
