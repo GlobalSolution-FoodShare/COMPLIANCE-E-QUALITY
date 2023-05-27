@@ -64,7 +64,10 @@
     <element xsi:type="archimate:BusinessFunction" name="Resgata item com moedas de usuário" id="id-461a508de80549b4a9d90111eef54f74"/>
     <element xsi:type="archimate:BusinessEvent" name="Resgata itens com moeda de usuário e tem o valor retirado da carteira" id="id-26a35943bfcb4c96a237904de684d749"/>
   </folder>
-  <folder name="Application" id="id-7f958bba88c84410b83b43c8ae9e13f8" type="application"/>
+  <folder name="Application" id="id-7f958bba88c84410b83b43c8ae9e13f8" type="application">
+    <element xsi:type="archimate:DataObject" name="Função de registrar um pedido alimentício" id="id-4d3991dc811f45a7a9a4e0ef2e3fc7f2"/>
+    <element xsi:type="archimate:ApplicationService" name="Front-end React Native" id="id-a837671d03ab4d9c91775c77074768d2"/>
+  </folder>
   <folder name="Technology &amp; Physical" id="id-24e044bf7e03429289732fc5ac31389e" type="technology"/>
   <folder name="Motivation" id="id-17d63031860b46c48c20fe8ef6465bf4" type="motivation">
     <element xsi:type="archimate:Stakeholder" name="Grupo FoodShare + FIAP + Caça-Fome + Microsoft + KraftHeinz" id="id-1b92da6675084b9bb1137243f7037388"/>
@@ -639,6 +642,12 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-bba2dffd994d49ac87be719439513c6f" source="id-40bdaa018e554286ac8dbb40a6521bbf" target="id-0bb4d5d41db549cabcaca4ef04118620" archimateRelationship="id-ce75d3ba36f547eca198dfbba2c8bd47">
           <bendpoint startX="-2" startY="-326" endX="188" endY="-2"/>
         </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-4060de4e6e694a13a9ec5cc0f8a65b01" archimateElement="id-4d3991dc811f45a7a9a4e0ef2e3fc7f2">
+        <bounds x="-480" y="2424" width="2380" height="829"/>
+        <child xsi:type="archimate:DiagramObject" id="id-ae8a1177619a4f3ea25c1a28239dc3f7" archimateElement="id-a837671d03ab4d9c91775c77074768d2">
+          <bounds x="84" y="60" width="732" height="193"/>
+        </child>
       </child>
     </element>
   </folder>
