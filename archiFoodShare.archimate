@@ -145,7 +145,7 @@
     <element xsi:type="archimate:Device" name="Device" id="id-5a73f9b54d52428c837fa5850517ade6"/>
     <element xsi:type="archimate:Device" name="Celular com 8GB armazenamento, 4RAM, Rede móvel " id="id-a2934c0b4c07427099b83900015ef166"/>
     <element xsi:type="archimate:SystemSoftware" name="Browser (Firefox, Chorme, Edge, Opera, Frame) Client de Firewall CISCO PIX" id="id-4690d82da208427fb38d53778c2cbd08"/>
-    <element xsi:type="archimate:Device" name="Mobile com conexão a internet 1GB RAM" id="id-e98b43c0b360444da7e2afedc903639a"/>
+    <element xsi:type="archimate:Device" name="Mobile com conexão a internet, 2gb ram, 32gb, androido > 4.4 / IOS 15" id="id-e98b43c0b360444da7e2afedc903639a"/>
     <element xsi:type="archimate:SystemSoftware" name="voip da empresa contratante" id="id-503c67b91da04654857e574bdc6019b7"/>
     <element xsi:type="archimate:Path" name="WIFI ou Rede-móvel" id="id-bb296716bb3d46f5857e6930a78324ee"/>
     <element xsi:type="archimate:Node" name="Roteador da operadora de telco" id="id-9720f503793f493d98638d54856c3d02"/>
@@ -191,8 +191,8 @@
     <element xsi:type="archimate:Constraint" name="O doador de acordo com seus pontos consegue resgatar benefícios" id="id-cdfd833e28e74d94a6902e06521687ab"/>
     <element xsi:type="archimate:Constraint" name="Para o doador só poderá enviar um feedback direto ou a ONG ou ao receptor. Um Receptor só consegue dar um feedback para outro tipo de usuário" id="id-63e6272d29db41f381a3c0675011bd2b"/>
     <element xsi:type="archimate:Constraint" name="Cada usuário consegue alterar o raio de proximidade de acordo com o que consegue buscar/ entregar" id="id-f0433e264d054eda8eb4a56986337816"/>
-    <element xsi:type="archimate:Constraint" name="ONG's e Receptores conseguem visualizar somente doadores" id="id-46a56fb9795d480aaa75e0357bd1ea91"/>
-    <element xsi:type="archimate:Constraint" name="Doadores conseguem visualizar apenas Receptores e ONG's" id="id-617f77f9e5f14bdeb7bd7c1ac9a8faac"/>
+    <element xsi:type="archimate:Constraint" name="Doadores poderão ver os receptores que estiverem com uma solicitação em aberto no mapa em um raio de X metros/quilometros" id="id-46a56fb9795d480aaa75e0357bd1ea91"/>
+    <element xsi:type="archimate:Constraint" name="Receptores poderão ver ONG's e se o doador permitir, poderão ver doadores também" id="id-617f77f9e5f14bdeb7bd7c1ac9a8faac"/>
     <element xsi:type="archimate:Constraint" name="Somente o usuário do tipo ONG consegue solicitar cadastro de alimento solto que não existiram na listagem" id="id-05daa3efeb7e43579791b7c6cfb9543d"/>
     <element xsi:type="archimate:Constraint" name="Para o doador terá de realizar a entrega passando uma verificação e o receptor/ONG terá de validar o código " id="id-ae144d2e163c4839a428a3265b722c2b"/>
   </folder>
@@ -560,7 +560,7 @@
         <bounds x="720" y="1041" width="145" height="65"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-9c6a6a23f1b4434897d72d5642ba84f4" targetConnections="id-73d05d9c0c984333a3f23c4a9a6c2a44" archimateElement="id-1367bcffa4d343cb8ee2f699cd184e5b">
-        <bounds x="264" y="920" width="157" height="74"/>
+        <bounds x="264" y="920" width="157" height="88"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-68ff8d6f03ba4073817de5652a2ba882" source="id-9c6a6a23f1b4434897d72d5642ba84f4" target="id-7174aa267d70422abbe7cf0709ac0e02" archimateRelationship="id-3a93c4fde93349449e236f7ec29d66af">
           <bendpoint startX="186" startY="16" endX="-82" endY="78"/>
         </sourceConnection>
@@ -594,11 +594,11 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-dcffaa692a094d2b811f03094000224c" source="id-e1b34576533f4389b4a5e76fccb0fcf0" target="id-310868a1375f4caebfa39c45c30b24a5" archimateRelationship="id-72ffcc3db0ab462cbc717da1c33b3f34"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-512f6341d3084b61bef15aafa4de58cf" targetConnections="id-3a2680f30d9344758a4cb25d19ca3866" archimateElement="id-46a56fb9795d480aaa75e0357bd1ea91">
-        <bounds x="-312" y="1272" width="167" height="76"/>
+        <bounds x="-324" y="1272" width="179" height="97"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-6c2f91055a814d09b12281599688e627" source="id-512f6341d3084b61bef15aafa4de58cf" target="id-5b794f3721a043919de35f4837997071" archimateRelationship="id-f745dab371694ec0a7b697a08ca398f5"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-92672ee0ecca405395c10db3831e1695" targetConnections="id-129e08caac0f40409959bbb4f3787eb0" archimateElement="id-617f77f9e5f14bdeb7bd7c1ac9a8faac">
-        <bounds x="-120" y="1272" width="158" height="75"/>
+        <bounds x="-120" y="1272" width="158" height="96"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-328affc8ceb2490cae7c903423cec239" source="id-92672ee0ecca405395c10db3831e1695" target="id-25c62df8012046fb9aada27d03cb80d3" archimateRelationship="id-782120ce6a594c01bc9db02ab982babe"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-bb5df2ec5838424abe596cde3ff6c83f" targetConnections="id-00412ad9a0774e1381aef5b2baec01c7" archimateElement="id-05daa3efeb7e43579791b7c6cfb9543d">
@@ -834,7 +834,7 @@
         </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-bce11aaa38884fd397dd7664c9bcdcb1" archimateElement="id-e98b43c0b360444da7e2afedc903639a">
-        <bounds x="-48" y="3133" width="140" height="132"/>
+        <bounds x="-48" y="3133" width="140" height="144"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-b6f4e3b3b906474bbab1e6b8daa7d093" source="id-bce11aaa38884fd397dd7664c9bcdcb1" target="id-69fc8f306c914bea97c5b0e8ecee3e8b" archimateRelationship="id-fac1ffadc9e14ae083faf62883a26fad"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-6fbff03d54d741a1b0deb94d4a56c537" source="id-bce11aaa38884fd397dd7664c9bcdcb1" target="id-aa1894fc1e1f43fc8d186701797d38d9" archimateRelationship="id-3fb7d1dc6d8844649ae4b7e5957e2114">
           <bendpoint startX="-598" startY="-30" endX="-384" endY="654"/>
@@ -852,7 +852,7 @@
           <bendpoint startX="1526" startY="-690" endX="-214" endY="-6"/>
         </sourceConnection>
         <child xsi:type="archimate:DiagramObject" id="id-69fc8f306c914bea97c5b0e8ecee3e8b" targetConnections="id-b6f4e3b3b906474bbab1e6b8daa7d093" archimateElement="id-503c67b91da04654857e574bdc6019b7">
-          <bounds x="12" y="60" width="120" height="55"/>
+          <bounds x="12" y="84" width="120" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-8b4df31f47954aefbf23c6ee4e7cb133" source="id-69fc8f306c914bea97c5b0e8ecee3e8b" target="id-d31453368f71495f8431083f1b2705b1" archimateRelationship="id-2e9a3a08a0224828b0029b8c02349b01"/>
         </child>
       </child>
